@@ -133,31 +133,37 @@ p {
   <div class="col-lg-3 col-md-6"><p>Item 7</p></div>
   <div class="col-lg-3 col-md-6"><p>Item 8</p></div>
 </div>
-<body>
-  <header>
-    header element - Some header information goes here. Usually consists of company logo, some tag line, etc. Sometimes, navigation is contained in the header as well.
-    <nav>nav (short for navigation) element - Usually contains links to different parts of the web site.</nav>
-  </header>
-  <h1>Main Heading of the Page (hard not to have it)</h1>
-  <section>
-    Section 1
-    <article>Article 1</article>
-    <article>Article 2</article>
-    <article>Article 3</article>
-  </section>
-  <section>
-    Section 2
-    <article>Article 4</article>
-    <article>Article 5</article>
-    <article>Article 6</article>
-    <div>Regular DIV element</div>
-  </section>
-  <aside>
-    ASIDE - Some information that relates to the main topic, i.e., related posts.
-  </aside>
+div {
+  /*background-color: #00FFFF;*/
+}
+p {
+  width: 50%;
+  /*border: 1px solid black;*/
+  float: left;
+  padding: 10px;
+}
 
-  <footer>
-    JHU Copyright 2015
-  </footer>
+#p1 {
+  /*background-color: #A52A2A;*/
+}
+#p2 {
+  /*background-color: #DEB887;*/
+}
+
+section {
+  clear: left;
+}
+
+</style>
+</head>
+<body>
+<h1>Two Column Design</h1>
+
+<div>
+  <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.</p>
+  <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</p>
+  <section>This is regular content continuing after the the paragraph boxes.</section>
+</div>
+
 </body>
 </html>
